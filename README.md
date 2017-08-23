@@ -60,17 +60,23 @@ Unsurprisingly, stories about **Donald Trump** dominate news coverage between No
 
 This topic modeling shows that of the most popular topics across time, most can be categorized as "hard" news. Of these eight topics, only "Meryl Streep" might be considered "soft," although the peak in news coverage mentioning Streep came in the wake of her [comments](http://www.cnn.com/2017/01/08/entertainment/meryl-streep-golden-globes-speech/index.html) at the Golden Globes about Donald Trump, arguably "hard" news.
 
+## Looking at social shares by topic
+
+I ran a Excel pivot table of predicted topics by total social shares. Trump, health care and Dakota Access were most popular in this dataset.  
+
+![img](http://aleszu.com/textualanalysis/top500-plots/socialshares.png)
+
+## Looking at topics by publisher
+
+Using an Excel pivot table, I created this heatmap of coverage by topic. Some findings: The Huffington Post disproportionately covered Meryl Streep and Clinton while BuzzFeed disproportionately covered the Women's March. The New York Times and The Hill covered health care almost equally while CNN covered immigration more than any other topic. 
+
+![img](http://aleszu.com/textualanalysis/top500-plots/topics-plotted.png)
+
 ## How we decided on 50 topics 
 
 Using the methods described by [Pablo Barberá](https://github.com/pablobarbera/eui-text-workshop/blob/master/03-unsupervised/01-topic-models.Rmd), we plotted the numbers of topics against perplexity. This plot serves as a justification for sampling just above or below 30 topics. 50 is more or less within that range.
 
 ![img](http://aleszu.com/textualanalysis/top500-plots/topicsperplexity.png)
-
-## Looking at topics by publisher
-
-Using an Excel pivot table, I created this heatmap of coverage by topic.
-
-![img](http://aleszu.com/textualanalysis/top500-plots/topics-plotted.png)
 
 # Output of the top terms from 50 topics 
 
@@ -737,4 +743,33 @@ tab44 <- table(top500topics$Date[top500topics$pred_topic==44])
 plot(tab44, lwd = 2, ylab = "Immigration articles")
 tab48 <- table(top500topics$Date[top500topics$pred_topic==48])
 plot(tab48, lwd = 2, ylab = "Trump articles")
+
+# Build heatmap of pivot table
+
+heatmap <- read.csv("topicsheatmap.csv")
+View(heatmap)
+library(ggplot2)
+row.names(heatmap) <- heatmap$outlet
+heatmap$outlet  <- NULL
+heatmap$Total <- NULL
+heatmap_matrix <- data.matrix(heatmap)
+library(RColorBrewer)
+topics_heatmap <- heatmap(heatmap_matrix, Rowv=NA, Colv=NA, col = cm.colors(256), scale="column", margins=c(5,10))
+
+# Build barplot of topics by social shares
+
+library(plotly)
+socialshares <- read.csv("8topicssocialshares.csv")
+View(socialshares)
+psocial <- plot_ly(socialshares, x = ~topic_name, y = ~total_facebook, type = 'bar', name = 'Facebook') %>%
+  add_trace(y = ~total_twitter, name = 'Twitter') %>%
+  layout(title = "Social shares by topic Nov 2016 - May 2017",
+         xaxis = list(title = "", tickangle = -45),
+         yaxis = list(title = "Social shares"),
+         margin = list(b = 100),
+         barmode = 'group')
+
+psocial
+
+
 ```
