@@ -66,6 +66,12 @@ Using the methods described by [Pablo Barberá](https://github.com/pablobarbera/
 
 ![img](http://aleszu.com/textualanalysis/top500-plots/topicsperplexity.png)
 
+## Looking at topics by publisher
+
+Using an Excel pivot table, I created this heatmap of coverage by topic.
+
+![img](http://aleszu.com/textualanalysis/top500-plots/topics-plotted.png)
+
 # Output of the top terms from 50 topics 
 
 ```
