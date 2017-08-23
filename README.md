@@ -66,6 +66,273 @@ Using the methods described by [Pablo Barberá](https://github.com/pablobarbera/
 
 ![img](http://aleszu.com/textualanalysis/top500-plots/topicsperplexity.png)
 
+# Output of the top terms from 50 topics 
+
+```
+>
+> terms[,1]
+ [1] "state"              "planned"            "planned_parenthood"
+ [4] "parenthood"         "over"               "case"              
+ [7] "london"             "days"               "protest"           
+[10] "cant"               "marriage"           "not"               
+[13] "california"         "they_are"           "cat"               
+>
+> terms[,2]
+ [1] "as"         "mike"       "pence"      "against"    "mike_pence" "that"      
+ [7] "live"       "during"     "for"        "putin"      "leader"     "donates"   
+[13] "benefit"    "toddler"    "j"         
+>
+> terms[,3]
+ [1] "of"       ","        "-"        "india"    "times"    ":"        "of_india"
+ [8] "times_of" "-_times"  "see"      "khan"     "as"       "rs"       "indian"  
+[15] "pics"    
+>
+> terms[,4]
+ [1] "all"     "to"      "goes"    "in"      "twitter" "viral"   ":"      
+ [8] "on"      "plans"   "class"   "poor"    "to_take" "again"   "student"
+[15] "take"   
+>
+> terms[,5]
+ [1] "in"       "and"      "2017"     "live"     "ipl"      "china"    "facebook"
+ [8] "2017_:"   "12"       "birth"    "ipl_2017" "to"       "final"    "in_2017" 
+[15] "lose"    
+>
+> terms[,6]
+ [1] "'"     ":"     ":_'"   ",_'"   "us"    "'_:"   "a_'"   "to_'"  "'_the"
+[10] "'_to"  "'_in"  "on_'"  "of_'"  "'_and" "'_is" 
+>
+> terms[,7]
+ [1] "from"      "big"       "get"       "fans"      "class"     "woman"    
+ [7] "attacks"   "mom"       "there"     "tells"     "message"   "sanctuary"
+[13] "tree"      "letter"    "hollywood"
+>
+> terms[,8]
+ [1] "new"      "about"    "we"       "all"      "to"       "need"     "college" 
+ [8] "what"     "know"     "york"     "need_to"  "the_new"  "new_york" "now"     
+[15] "talk"    
+>
+> terms[,9]
+ [1] "you"    "that"   "?"      "will"   "your"   "if"     "and"    "make"  
+ [9] "can"    "get"    "are"    "this"   "things" "only"   "why"   
+>
+> terms[,10]
+ [1] "to"      "$"       "in"      "million" "1"       "billion" "for"    
+ [8] "100"     "deal"    "under"   "cut"     "great"   "for_$"   "a"      
+[15] "say"    
+>
+> terms[,11]
+ [1] "a"     "is"    "|"     "this"  "it"    "and"   "was"   "her"   "has"  
+[10] "not"   "woman" "what"  "but"   "an"    "she"  
+>
+> terms[,12]
+ [1] "us"         "into"       "attack"     "%"          "over"       "already"   
+ [7] "female"     "give"       "navy"       "them"       "police"     "car"       
+[13] "republican" "happy"      "tears"     
+>
+> terms[,13]
+ [1] "trump"       "house"       "white"       "white_house" ":"          
+ [6] "russia"      "to"          "report"      "election"    "russian"    
+[11] "trumps"      "help"        "press"       "team"        "conway"     
+>
+> terms[,14]
+ [1] "."       "to"      "u.s"     "u.s_."   "in"      "for"     "trump"  
+ [8] "._."     "now"     "wall"    "pay"     "they"    "mexico"  "wants"  
+[15] "the_u.s"
+>
+> terms[,15]
+ [1] "his"          "with"         "show"         "dog"          "man"         
+ [6] "of_his"       "sharma"       "for"          "own"          "kapil"       
+[11] "him"          "kapil_sharma" "his_own"      "sunil"        "ohio"        
+>
+> terms[,16]
+ [1] "sanders"        "bernie"         "bernie_sanders" "big"           
+ [5] "town"           "voter"          "democratic"     "because"       
+ [9] "fraud"          "voter_fraud"    "down"           "with"          
+[13] ":"              "into"           "him"           
+>
+> terms[,17]
+ [1] "to"             "court"          "north"          "supreme"       
+ [5] "supreme_court"  "back"           "on"             "of"            
+ [9] "muslim"         "into"           "carolina"       "korea"         
+[13] "rules"          "north_carolina" "war"           
+>
+> terms[,18]
+ [1] "in"        "from"      "americans" "trump"     "its"       "why"      
+ [7] "5"         "obamas"    "illegal"   "like"      "being"     "lost"     
+[13] "victims"   "50"        "british"  
+>
+> terms[,19]
+ [1] "clinton"         "an"              "george"          "family"         
+ [5] "michael"         "hillary"         "snl"             "trump"          
+ [9] "hillary_clinton" "george_michael"  "'_snl"           "snl_'"          
+[13] "baldwin"         "win"             "day"            
+>
+> terms[,20]
+ [1] "after"           "star"            "attack"          "carrie"         
+ [5] "fisher"          "in"              "carrie_fisher"   "mother"         
+ [9] "daughter"        "60"              "reynolds"        "wars"           
+[13] "actress"         "debbie_reynolds" "a_-"            
+>
+> terms[,21]
+ [1] "-"        "news"     "bbc"      "-_bbc"    "bbc_news" "year"     "old"     
+ [8] "-_year"   "-_old"    "year_-"   "girl"     "fake"     "us"       "boy"     
+[15] "'_-"     
+>
+> terms[,22]
+ [1] "to"      "up"      "from"    ","       "for"     "up_to"   "it"     
+ [8] "law"     ":"       "party"   "were"    "give"    "with"    "america"
+[15] "top"    
+>
+> terms[,23]
+ [1] "first"     "for"       ","         "day"       "time"      "2"        
+ [7] "its"       "office"    "black"     ":"         "on"        "the_first"
+[13] "baahubali" "free"      "set"      
+>
+> terms[,24]
+ [1] "after"     "years"     "still"     "states"    "united"    "on"       
+ [7] "50"        "off"       "kids"      "flight"    "airlines"  "years_of" 
+[13] "gets"      "passenger" "wins"     
+>
+> terms[,25]
+ [1] "to"       "how"      "back"     "go"       "how_to"   "being"    "fight"   
+ [8] "ready"    "ready_to" "to_go"    "who"      "to_fight" "them"     "stand"   
+[15] "back_to" 
+>
+> terms[,26]
+ [1] "are"           "on"            "people"        "march"        
+ [5] "their"         "who"           "women's"       "women"        
+ [9] "women's_march" "washington"    "people_are"    "and"          
+[13] "womens"        "scientists"    "say"          
+>
+> terms[,27]
+ [1] "more"      "than"      "over"      "more_than" "shows"     "on"       
+ [7] "and"       "wwe"       "votes"     "couple"    "americans" "money"    
+[13] "a"         "him"       "percent"  
+>
+> terms[,28]
+ [1] "bill"        "health"      "care"        "gop"         "would"      
+ [6] "plan"        "vote"        "obamacare"   "to"          "republicans"
+[11] "tax"         "health_care" "republican"  "from"        "for"        
+>
+> terms[,29]
+ [1] "!"               "just"            "trump"           "news"           
+ [5] "*"               "liberty"         "writers"         "what"           
+ [9] "*_liberty"       "liberty_writers" "writers_news"    "&"              
+[13] "has"             "sessions"        "breaking"       
+>
+> terms[,30]
+ [1] "by"        "with"      "trump's"   "end"       "senate"    "24"       
+ [7] "isis"      "some"      "an"        "parents"   "meeting"   "stunning" 
+[13] "different" "turns"     "christmas"
+>
+> terms[,31]
+ [1] "with"        "for"         "school"      "of"          "trumps"     
+ [6] "secretary"   "devos"       "betsy"       "education"   "high"       
+[11] "students"    "public"      "betsy_devos" "over"        "off"        
+>
+> terms[,32]
+ [1] "to"        "on"        "against"   "coming"    "free"      "where"    
+ [7] "coming_to" "chicago"   "takes"     "all"       "top"       "sex"      
+[13] "must"      "farewell"  "is_coming"
+>
+> terms[,33]
+ [1] ":"              "watch"          "video"          "and"           
+ [5] "from"           "]"              "["              "video_]"       
+ [9] "[_video"        "him"            "judicial"       "judicial_watch"
+[13] "out"            "watch_:"        "-_judicial"    
+>
+> terms[,34]
+ [1] "national"             "media"                "climate"             
+ [4] "change"               "pipeline"             "security"            
+ [7] "dakota"               "access"               "climate_change"      
+[10] "protest"              "protesters"           "administration"      
+[13] "dakota_access"        "social"               "trump_administration"
+>
+> terms[,35]
+ [1] "the"       "of"        "is"        "of_the"    "in_the"    "world"    
+ [7] "in"        "most"      "best"      "on_the"    "2016"      "for_the"  
+[13] "to_the"    ":_the"     "the_world"
+>
+> terms[,36]
+ [1] "obama"          "of"             "in"             "from"          
+ [5] "women"          "michelle"       "barack"         "michelle_obama"
+ [9] "official"       "girls"          "two"            "barack_obama"  
+[13] "5"              "obama's"        "oil"           
+>
+> terms[,37]
+ [1] "with"         "-_the"        "baby"         "boston"       "globe"       
+ [6] "the_boston"   "boston_globe" "its"          "kapoor"       "off"         
+[11] "drug"         "ali"          ","            "gets"         "kareena"     
+>
+> terms[,38]
+ [1] "to"            "speech"        "golden"        "for"          
+ [5] "and"           "meryl"         "meryl_streep"  "streep"       
+ [9] "7"             "globes"        "golden_globes" "fire"         
+[13] "in"            "america"       "together"     
+>
+> terms[,39]
+ [1] "in"        "man"       "of"        "police"    "death"     "found"    
+ [7] "life"      "killed"    "who"       "by"        "black"     "officer"  
+[13] "shooting"  "killed_in" "to_death" 
+>
+> terms[,40]
+ [1] "from"     "trumps"   "at"       "on"       "west"     "civil"    "man_who" 
+ [8] "michigan" "kind"     "storm"    "rights"   "calls"    "final"    "city"    
+[15] "shocked" 
+>
+> terms[,41]
+ [1] "no"        ","         "one"       "("         ")"         "over"     
+ [7] "no_longer" "longer"    "exclusive" "face"      "female"    "wedding"  
+[13] "no_one"    "is_no"     "refugee"  
+>
+> terms[,42]
+ [1] ":"        "i"        "out"      "my"       "on"       "at"       "out_of"  
+ [8] ":_i"      "fox"      "fox_news" "love"     "dont"     "home"     "am"      
+[15] "i_am"    
+>
+> terms[,43]
+ [1] ","         "at"        "and"       "dies"      "dies_at"   "dead"     
+ [7] ",_dies"    ",_and"     "john"      "actor"     "aged"      "dead_at"  
+[13] "age"       "dies_aged" "singer"   
+>
+> terms[,44]
+ [1] "on"              "trump's"         "ban"             "of"             
+ [5] "order"           "immigration"     "signs"           "executive"      
+ [9] "travel"          "judge"           "refugees"        "federal"        
+[13] "abortion"        "executive_order" "trudeau"        
+>
+> terms[,45]
+ [1] "be"      "says"    ","       "will"    "have"    "he"      "not"    
+ [8] "to_be"   "should"  "may"     "could"   "why"     ",_says"  "been"   
+[15] "will_be"
+>
+> terms[,46]
+ [1] "for"       "who"       "calls"     "for_trump" "budget"    "calls_for"
+ [7] "secret"    "voted"     "service"   ":"         "take"      "air"      
+[13] "every"     "|"         "science"  
+>
+> terms[,47]
+ [1] "anti_-"     "anti"       "on"         "-_trump"    "california" "an"        
+ [7] "tv"         "online"     "rally"      "dad"        "after"      "had"       
+[13] "protests"   "trumps"     "all"       
+>
+> terms[,48]
+ [1] "trump"           "donald"          "president"       ":"              
+ [5] "donald_trump"    "inauguration"    "trump's"         "trump_:"        
+ [9] ":_trump"         "president_trump" "trump_,"         "trump_is"       
+[13] "to_trump"        "claims"          "trump_to"       
+>
+> terms[,49]
+ [1] "on"        "after"     ":"         "meals"     "has"       "wheels"   
+ [7] "on_wheels" "american"  "our"       "food"      "meals_on"  "put"      
+[13] "over"      "her"       "own"      
+>
+> terms[,50]
+ [1] "to"        "right"     "stop"      "christmas" ":"         "john"     
+ [7] "photo"     "wing"      "wanted"    "saying"    "far"       "other"    
+[13] "french"    "to_stop"   "'_right" 
+```
+
 # All the code
 
 ```
