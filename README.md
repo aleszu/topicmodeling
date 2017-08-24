@@ -28,9 +28,10 @@ These three topics would seem to scoop up stories on **Hillary Clinton**, the **
 
 ## Plotting article topics across time
 
-Of 50 topics predicted, most were junk. I chose to plot eight that saw peaks of coverage with more than 10 articles on a single day. Those are **Clinton, Dakota Access, Health Care, Immigration, Meryl Streep, the Women's March, White House** and **Donald Trump**.
+Of 50 topics predicted, most were junk. I chose to plot eight that saw peaks of coverage with more than 10 articles on a single day. Those are **Clinton, U.S. Policy, Dakota Access, Health Care, Immigration, Meryl Streep, the Women's March, White House** and **Donald Trump**.
 
 ![img](http://aleszu.com/textualanalysis/top500-plots/clinton.png)
+![img](http://aleszu.com/textualanalysis/top500-plots/uspolicy.png)
 ![img](http://aleszu.com/textualanalysis/top500-plots/dakotaaccess.png)
 ![img](http://aleszu.com/textualanalysis/top500-plots/healthcare.png)
 ![img](http://aleszu.com/textualanalysis/top500-plots/immigration.png)
@@ -55,13 +56,14 @@ Unsurprisingly, stories about **Donald Trump** dominate news coverage between No
  [9] ":_trump"         "president_trump" "trump_,"         "trump_is"       
 [13] "to_trump"        "claims"          "trump_to" 
 ```
+
 ## Topic modeling picks up mostly "hard" news
 
 This topic modeling shows that of the most popular topics across time, most can be categorized as "hard" news. Of these eight topics, only "Meryl Streep" might be considered "soft," although the peak in news coverage mentioning Streep came in the wake of her [comments](http://www.cnn.com/2017/01/08/entertainment/meryl-streep-golden-globes-speech/index.html) at the Golden Globes about Donald Trump, arguably "hard" news.
 
 ## Looking at social shares by topic
 
-I ran a Excel pivot table of predicted topics by total social shares. Trump, health care and Dakota Access were most popular in this dataset.  
+I ran a Excel pivot table of predicted topics by total social shares. **Trump, U.S. policy, health care** and **Dakota Access** were most popular in this dataset.  
 
 ![img](http://aleszu.com/textualanalysis/top500-plots/socialshares.png)
 
