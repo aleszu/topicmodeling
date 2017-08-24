@@ -24,7 +24,21 @@ Here, a selection of top terms from three of the predicted topics.
 [11] "tax"         "health_care" "republican"  "from"        "for" 
 ```
 
-These three topics would seem to scoop up stories on **Hillary Clinton**, the **Dakota Access Pipeline**, and **health care**. (Of course, confounding terms end up in these topics, too. Stories on George Michael's December 25, 2016 death, for example, get dumped into stories about Clinton, who saw a surge of coverage following her loss in the 2016 Presidential election.)
+These three topics would seem to scoop up stories on **Hillary Clinton**, the **Dakota Access Pipeline**, and **health care**. (Of course, confounding terms end up in these topics, too. Stories on George Michael's December 25, 2016 death, for example, get dumped into stories about Clinton, who saw a surge of coverage following her loss in the 2016 Presidential election.) 
+
+Here's what we named the topics:
+
+```
+# White House, 13
+# U.S. policy, 14
+# Clinton, 19
+# Women's March, 26
+# Health Care, 28
+# Dakota Access, 34
+# Meryl Streep, 38
+# Immigration, 44
+# Trump, 48
+```
 
 ## Plotting article topics across time
 
