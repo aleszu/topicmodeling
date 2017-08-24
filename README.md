@@ -55,8 +55,7 @@ Unsurprisingly, stories about **Donald Trump** dominate news coverage between No
  [9] ":_trump"         "president_trump" "trump_,"         "trump_is"       
 [13] "to_trump"        "claims"          "trump_to" 
 ```
-
-## Topic modeling pick up mostly "hard" news
+## Topic modeling picks up mostly "hard" news
 
 This topic modeling shows that of the most popular topics across time, most can be categorized as "hard" news. Of these eight topics, only "Meryl Streep" might be considered "soft," although the peak in news coverage mentioning Streep came in the wake of her [comments](http://www.cnn.com/2017/01/08/entertainment/meryl-streep-golden-globes-speech/index.html) at the Golden Globes about Donald Trump, arguably "hard" news.
 
