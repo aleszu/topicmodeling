@@ -65,13 +65,13 @@ This topic modeling shows that of the most popular topics across time, most can 
 
 I ran a Excel pivot table of predicted topics by total social shares. **Trump, U.S. policy, health care** and **Dakota Access** were most popular in this dataset.  
 
-![img](http://aleszu.com/textualanalysis/top500-plots/socialshares.png)
+![img](http://aleszu.com/textualanalysis/top500-plots/topics-socialshares.png)
 
 ## Looking at topics by publisher
 
 Using an Excel pivot table, I created this heatmap of coverage by topic. Some findings: The Huffington Post disproportionately covered Meryl Streep and Clinton while BuzzFeed disproportionately covered the Women's March. The New York Times and The Hill covered health care almost equally while CNN covered immigration more than any other topic. 
 
-![img](http://aleszu.com/textualanalysis/top500-plots/topics-plotted.png)
+![img](http://aleszu.com/textualanalysis/top500-plots/topics-heatmap.png)
 
 ## How we decided on 50 topics 
 
